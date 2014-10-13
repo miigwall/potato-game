@@ -3,6 +3,11 @@ Codename: Potato Game
 
 Play with potatoes
 
+Developing
+==========
+
+git pull https://github.com/miigwall/potato-game.git
+
 Compiling
 =========
 

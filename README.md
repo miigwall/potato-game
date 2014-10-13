@@ -9,8 +9,7 @@ Compiling
 1. Go to https://www.ludei.com/cocoonjs/ and login
 2. Create new project using CocoonJS
 
-Portrait, Portrait UpsideDown, Landscape Left and Landscape Right
-Scale aspect fit
+Portrait, Portrait UpsideDown, Landscape Left, Landscape Right and Scale aspect fit
 
 Changelog
 =========

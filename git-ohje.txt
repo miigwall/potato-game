@@ -1,0 +1,33 @@
+GIT ohje
+======================
+
+Initialization
+======================
+git init
+git remote add origin https://github.com/miigwall/potato-game.git
+git remote -v
+
+Pulling
+======================
+
+git pull https://github.com/miigwall/potato-game.git
+
+tai
+
+git pull https://github.com/miigwall/potato-game.git [remote-branch]
+
+Pushing
+======================
+
+git add .
+git commit -m "commit message"
+
+git push origin master
+
+tai 
+
+git push [branch] master
+
+tai
+
+git push [own-branch] [remote-branch]

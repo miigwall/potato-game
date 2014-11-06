@@ -1,3 +1,12 @@
 {
-  "trap1":{"sx":0,"sy":32,"cols":3,"tilew":70,"tileh":70,"frames":3,"rows":1,"spacingY":32}
+	"circularsaw": { 
+		"sx" : 0, 
+		"sy" : 70, 
+		"cols" : 1, 
+		"tilew" : 70, 
+		"tileh" : 70, 
+		"frames" : 3, 
+		"rows": 3, 
+		"spacingY" : 70
+	}
 }

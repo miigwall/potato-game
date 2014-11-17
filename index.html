@@ -5,12 +5,27 @@
 <meta name="viewport" content="width=device-width, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
 <title>Potato Game</title>
 <link rel="stylesheet" href="assets/style.css" />
+<script src="lib/platformer-startscreen-actions.js"></script>
 </head>
 <body>
 <div id="main-screen" class="level-comic"></div>
 <div id="scene-1" class="level-comic hidden"></div>
 <div id="scene-2" class="level-comic hidden"></div>
 <div id="scene-3" class="level-comic hidden"></div>
-<script src="lib/platformer-startscreen-actions.js"></script>
+<div id="before-level-2" class="hidden level-comic">
+	<div class="level-comic-container">
+		<p>Jei!</p>
+		<a class="level-comic-button" id="play-level-2">Go to Level 2</a>
+	</div>
+</div>
+<div id="loading">
+	<div id="loading_container">
+		<div id="loading_progress">
+			<span>Potating..</span>
+		</div>
+	</div>
+</div>
+<div id="dt" style="position: absolute; bottom: 0px; right: 0px; z-index: 99999; background: #fff;">DT</div>
+<script src="lib/platformer-actions.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="70" tileheight="70">
+<map version="1.0" orientation="orthogonal" width="200" height="20" tilewidth="70" tileheight="70">
  <tileset firstgid="1" name="Tiles" tilewidth="70" tileheight="70" spacing="2">
-  <image source="../../../Program Files (x86)/wamp/www/potato-game-master/images/tiles.png" width="914" height="936"/>
+  <image source="../images/tiles.png" width="914" height="936"/>
   <tile id="8">
    <properties>
     <property name="points" value="0,0 1,1 0,1"/>
@@ -27,6 +27,11 @@
   <tile id="32">
    <properties>
     <property name="points" value="0,1 1,0 1,1"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="sensor" value="true"/>
    </properties>
   </tile>
   <tile id="40">
@@ -55,9 +60,14 @@
     <property name="sensor" value="true"/>
    </properties>
   </tile>
+  <tile id="138">
+   <properties>
+    <property name="sensor" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="157" name="player" tilewidth="72" tileheight="97">
-  <image source="../../../Program Files (x86)/wamp/www/potato-game-master/images/player.png" width="1296" height="98"/>
+  <image source="../images/player.png" width="1296" height="98"/>
   <tile id="0">
    <properties>
     <property name="Class" value="Player"/>
@@ -65,7 +75,7 @@
   </tile>
  </tileset>
  <tileset firstgid="175" name="collectables" tilewidth="70" tileheight="70" spacing="2">
-  <image source="../../../Program Files (x86)/wamp/www/potato-game-master/images/collectables.png" width="936" height="216"/>
+  <image source="../images/collectables.png" width="936" height="216"/>
   <tile id="1">
    <properties>
     <property name="Class" value="Collectable"/>
@@ -81,7 +91,7 @@
   </tile>
  </tileset>
  <tileset firstgid="214" name="doors" tilewidth="70" tileheight="110">
-  <image source="../../../Program Files (x86)/wamp/www/potato-game-master/images/doors.png" width="140" height="110"/>
+  <image source="../images/doors.png" width="140" height="110"/>
   <tile id="0">
    <properties>
     <property name="Class" value="Door"/>
@@ -91,7 +101,7 @@
   </tile>
  </tileset>
  <tileset firstgid="216" name="enemies" tilewidth="72" tileheight="72">
-  <image source="../../../Program Files (x86)/wamp/www/potato-game-master/images/enemies.png" width="216" height="216"/>
+  <image source="../images/enemies.png" width="216" height="216"/>
   <tile id="0">
    <properties>
     <property name="Class" value="Snail"/>
@@ -112,7 +122,7 @@
   </tile>
  </tileset>
  <tileset firstgid="225" name="traps" tilewidth="70" tileheight="70" spacing="2">
-  <image source="../../../Program Files (x86)/wamp/www/potato-game-master/images/traps.png" width="70" height="280"/>
+  <image source="../images/traps.png" width="70" height="280"/>
   <tile id="0">
    <properties>
     <property name="Class" value="CircularSaw"/>
@@ -120,9 +130,6 @@
    </properties>
   </tile>
  </tileset>
- <imagelayer name="Background">
-  <image source="../../../Program Files (x86)/wamp/www/potato-game-master/images/bg.png"/>
- </imagelayer>
  <layer name="Collision" width="200" height="20">
   <properties>
    <property name="collision" value="true"/>
@@ -1941,8 +1948,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="26"/>
+   <tile gid="38"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -4130,8 +4137,8 @@
    <tile gid="0"/>
   </data>
  </layer>
- <objectgroup name="Doors"/>
- <objectgroup name="Sprites">
+ <objectgroup name="Doors" width="0" height="0"/>
+ <objectgroup name="Sprites" width="0" height="0">
   <object gid="157" x="235" y="820"/>
   <object gid="176" x="980" y="840"/>
   <object gid="216" x="630" y="840"/>

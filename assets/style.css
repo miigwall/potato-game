@@ -65,8 +65,29 @@ body #loading #loading_container #loading_progress span {
 	height: 100%;
 	background: #fff;
 	z-index: 99999;
+	opacity: 0.4;
+}
+.level-comic#main-screen {
+	background: #000 url(../images/comics/startscreen.png) center center no-repeat;
+	background-size: 100%;
+}
+.level-comic#scene-1 {
+	background: #000 url(../images/comics/potatoman_scene1.png) center center no-repeat;
+	background-size: 100%;
+}
+.level-comic#scene-2 {
+	background: #000 url(../images/comics/potatoman_scene2.png) center center no-repeat;
+	background-size: 100%;
+}
+.level-comic#scene-3 {
+	background: #000 url(../images/comics/potatoman_scene3.png) center center no-repeat;
+	background-size: 100%;
 }
 .level-comic#before-level-2 {
+	background: url(../images/comics/level2.jpg) center center no-repeat;
+	background-size: 100%;
+}
+.level-comic#before-level-3 {
 	background: url(../images/comics/level2.jpg) center center no-repeat;
 	background-size: 100%;
 }

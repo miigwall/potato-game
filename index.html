@@ -3,41 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
-<title>Full-featured platformer example</title>
-<script src="lib/quintus.js"></script>
-<script src="lib/quintus_sprites.js"></script>
-<script src="lib/quintus_scenes.js"></script>
-<script src="lib/quintus_input.js"></script>
-<script src="lib/quintus_anim.js"></script>
-<script src="lib/quintus_2d.js"></script>
-<script src="lib/quintus_touch.js"></script>
-<script src="lib/quintus_ui.js"></script>
-<script src="lib/quintus_tmx.js"></script>
-<script src="lib/quintus_audio.js"></script>
-<script src="lib/platformer-functions.js"></script>
-<script src="lib/platformer.js"></script>
+<title>Potato Game</title>
 <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-<div id="before-level-2" class="hidden level-comic">
-	<div class="level-comic-container">
-		<p>Jei!</p>
-		<a class="level-comic-button" id="play-level-2">Go to Level 2</a>
-	</div>
-</div>
-<div id="before-level-3" class="hidden level-comic">
-	<div class="level-comic-container">
-		<p>Jei!</p>
-		<a class="level-comic-button" id="play-level-3">Go to Level 3</a>
-	</div>
-</div>
-<div id="loading">
-	<div id="loading_container">
-		<div id="loading_progress">
-			<span>Potating..</span>
-		</div>
-	</div>
-</div>
-<script src="lib/platformer-actions.js"></script>
+<div id="main-screen" class="level-comic"></div>
+<div id="scene-1" class="level-comic hidden"></div>
+<div id="scene-2" class="level-comic hidden"></div>
+<div id="scene-3" class="level-comic hidden"></div>
+<script src="lib/platformer-startscreen-actions.js"></script>
 </body>
 </html>

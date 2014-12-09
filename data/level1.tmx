@@ -127,6 +127,7 @@
   <tile id="40">
    <properties>
     <property name="sensor" value="true"/>
+    <property name="thisway" value="true"/>
    </properties>
   </tile>
   <tile id="41">
@@ -2304,7 +2305,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="65"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -2699,7 +2700,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="41"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>

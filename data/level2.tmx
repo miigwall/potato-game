@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="200" height="20" tilewidth="70" tileheight="70">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="70" tileheight="70">
  <tileset firstgid="1" name="Tiles" tilewidth="70" tileheight="70" spacing="2">
   <image source="../images/tiles.png" width="914" height="936"/>
   <tile id="0">
@@ -8502,20 +8502,20 @@
    <tile gid="0"/>
   </data>
  </layer>
- <objectgroup name="Doors" width="0" height="0"/>
- <objectgroup name="Sprites" width="0" height="0">
+ <objectgroup name="Doors"/>
+ <objectgroup name="Sprites">
   <object gid="157" x="235" y="820"/>
   <object gid="216" x="630" y="840"/>
-  <object gid="176" x="769" y="0"/>
-  <object gid="176" x="2173" y="0"/>
-  <object gid="176" x="3501" y="0"/>
-  <object gid="176" x="0" y="0"/>
-  <object gid="176" x="0" y="0"/>
-  <object gid="176" x="8265" y="0"/>
-  <object gid="176" x="0" y="0"/>
-  <object gid="176" x="9589" y="0"/>
-  <object gid="217" x="0" y="0"/>
-  <object gid="217" x="0" y="0"/>
-  <object gid="216" x="11744" y="0"/>
+  <object gid="176" x="769" y="280.333"/>
+  <object gid="176" x="2173" y="1261.67"/>
+  <object gid="176" x="3501" y="281.667"/>
+  <object gid="176" x="5183.67" y="908.333"/>
+  <object gid="176" x="6931.67" y="204.333"/>
+  <object gid="176" x="8265" y="1121.67"/>
+  <object gid="176" x="10223.7" y="1048.33"/>
+  <object gid="176" x="9589" y="1052.33"/>
+  <object gid="217" x="1825.33" y="1258.67"/>
+  <object gid="217" x="8929.33" y="1121.33"/>
+  <object gid="216" x="11744" y="1046.67"/>
  </objectgroup>
 </map>

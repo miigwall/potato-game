@@ -104,13 +104,15 @@ body #loading #loading_container #loading_progress span {
 }
 
 .level-comic#finish-screen {
+	position: relative;
 	background: url(../images/finishscreen.png) center center no-repeat;
 	background-size: cover;
 }
 
 .level-comic#finish-screen .level-comic-container {
 	margin: 0; padding: 0;
-	margin-top: 5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 

@@ -65,7 +65,6 @@ body #loading #loading_container #loading_progress span {
 	height: 100%;
 	background: #fff;
 	z-index: 99999;
-	opacity: 0.4;
 }
 .level-comic#main-screen {
 	background: #000 url(../images/comics/startscreen.png) center center no-repeat;
@@ -89,6 +88,10 @@ body #loading #loading_container #loading_progress span {
 }
 .level-comic#before-level-3 {
 	background: url(../images/comics/level2.jpg) center center no-repeat;
+	background-size: 100%;
+}
+.level-comic#finish-screen {
+	background: url(../images/finishscreen.png) center center no-repeat;
 	background-size: 100%;
 }
 .level-comic .level-comic-container {

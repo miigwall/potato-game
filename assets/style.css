@@ -1,6 +1,8 @@
+
 body {
 	padding: 0px; margin: 0px; 
 }
+
 body #loading {
 	margin: 50px auto;
 	max-width: 1024px;
@@ -9,6 +11,7 @@ body #loading {
 	height: 100%;
 	text-align: center;
 }
+
 body #loading #loading_container {
 	position: relative;
 	margin: 0 auto;
@@ -20,11 +23,12 @@ body #loading #loading_container {
 	-moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
 	box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
 }
+
 body #loading #loading_container #loading_progress {
 	display: block;
 	height: 100%;
 	width: 0;
-	color: white;
+	color: #fff;
 	background-color: #2bc253;
 	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #2bc253), color-stop(1, #54f054));
 	background-image: -webkit-linear-gradient(center bottom, #2bc253 37%, #54f054 69%);
@@ -36,6 +40,7 @@ body #loading #loading_container #loading_progress {
 	position: relative;
 	overflow: hidden;
 }
+
 body #loading #loading_container #loading_progress span {
 	position: absolute;
 	left: 0;
@@ -51,6 +56,7 @@ body #loading #loading_container #loading_progress span {
 .hidden {
 	display: none;
 }
+
 .level-comic {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -66,43 +72,95 @@ body #loading #loading_container #loading_progress span {
 	background: #fff;
 	z-index: 99999;
 }
+
 .level-comic#main-screen {
 	background: #000 url(../images/comics/startscreen.png) center center no-repeat;
 	background-size: 100%;
 }
+
 .level-comic#scene-1 {
 	background: #000 url(../images/comics/potatoman_scene1.png) center center no-repeat;
 	background-size: 100%;
 }
+
 .level-comic#scene-2 {
 	background: #000 url(../images/comics/potatoman_scene2.png) center center no-repeat;
 	background-size: 100%;
 }
+
 .level-comic#scene-3 {
 	background: #000 url(../images/comics/potatoman_scene3.png) center center no-repeat;
 	background-size: 100%;
 }
+
 .level-comic#before-level-2 {
 	background: url(../images/comics/level2.jpg) center center no-repeat;
 	background-size: 100%;
 }
+
 .level-comic#before-level-3 {
 	background: url(../images/comics/level2.jpg) center center no-repeat;
 	background-size: 100%;
 }
+
 .level-comic#finish-screen {
 	background: url(../images/finishscreen.png) center center no-repeat;
-	background-size: 100%;
+	background-size: cover;
 }
+
+.level-comic#finish-screen .level-comic-container {
+	margin: 0; padding: 0;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.level-comic#finish-screen .level-comic-container .finish-actions {
+	display: block;
+	width: 100%;
+	max-width: 200px;
+	margin: auto;
+	padding: 20px 40px 20px 40px;
+	background: #eee;
+	border: 3px solid #444;
+	margin-bottom: 20px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.level-comic#finish-screen .level-comic-container .finish-actions:hover {
+	background: #000;
+	color: #fff;
+	border: 3px solid #111;
+}
+
+.level-comic#finish-screen #finish-credits {
+	background: #ccc;
+	padding: 10px;
+	border: 3px solid #444;
+	max-width: 260px;
+	margin: auto;
+}
+
+.level-comic#finish-screen #credit-by {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.level-comic#finish-screen #credit-name1, 
+.level-comic#finish-screen #credit-name2 {
+	margin-top: 20px;
+}
+
 .level-comic .level-comic-container {
-	padding: 20px;
 	font-family: Arial, Sans-serif;
 }
+
 .level-comic .level-comic-container p {
 	padding: 0px; margin: 0px;
 	margin-bottom: 25px;
 	font-size: 20px;
 }
+
 .level-comic .level-comic-container .level-comic-button {
 	background: #eee;
 	padding: 10px 25px 10px 25px;
@@ -111,6 +169,7 @@ body #loading #loading_container #loading_progress span {
 	cursor: pointer;
 	border-radius: 15px;
 }
+
 .level-comic .level-comic-container .level-comic-button:hover {
 	color: #eee;
 	background: #000;

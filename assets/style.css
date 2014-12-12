@@ -3,6 +3,10 @@ body {
 	padding: 0px; margin: 0px; 
 }
 
+body#finish {
+	background: url(../images/bg_clouds.png);
+}
+
 body #loading {
 	margin: 50px auto;
 	max-width: 1024px;
@@ -94,19 +98,18 @@ body #loading #loading_container #loading_progress span {
 }
 
 .level-comic#before-level-2 {
-	background: url(../images/comics/level2.jpg) center center no-repeat;
+	background: #000 url(../images/comics/potatoman_scene4.png) center center no-repeat;
 	background-size: 100%;
 }
 
 .level-comic#before-level-3 {
-	background: url(../images/comics/level2.jpg) center center no-repeat;
+	background: #000 url(../images/comics/potatoman_scene5.png) center center no-repeat;
 	background-size: 100%;
 }
 
 .level-comic#finish-screen {
 	position: relative;
-	background: url(../images/finishscreen.png) center center no-repeat;
-	background-size: cover;
+	background: none;
 }
 
 .level-comic#finish-screen .level-comic-container {

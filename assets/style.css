@@ -107,6 +107,15 @@ body #loading #loading_container #loading_progress span {
 	background-size: 100%;
 }
 
+.level-comic#finish-screen #finish-text {
+	width: 240px;
+	background-color: #fff;
+	border: 3px solid #444;
+	margin: auto;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
 .level-comic#finish-screen {
 	position: relative;
 	background: none;
